@@ -37,7 +37,7 @@ function exibirDadosPrevisao(dados) {
   document.querySelector(".temperatura").innerHTML = Math.floor(dados.main.temp) + "°C";
   document.querySelector(".descricao-clima").innerHTML = dados.weather[0].description;
   document.querySelector(".icone-clima").src = "https://openweathermap.org/img/wn/" + dados.weather[0].icon + ".png";
-  document.querySelector(".umidade").innerHTML = dados.main.humidity + "%";
+  document.querySelector(".umidade").innerHTML = "Umidade do Ar: " + dados.main.humidity + "%";
   trocarFundoPorImagem(dados.weather[0].description);
 }
 
