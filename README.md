@@ -1,6 +1,6 @@
 # Previsão do Tempo - Projeto de Algoritmo e Lógica de Programação
 
-![Capa do Projeto](assets/images/app.png)
+![Capa do Projeto](assets/img/app.png)
 
 Este projeto foi desenvolvido como parte da matéria de Algoritmo e Lógica de Programação no primeiro semestre da faculdade. O objetivo principal foi aplicar conhecimentos básicos de HTML, CSS e JavaScript para construir uma aplicação web que consome a API OpenWeatherMap e exibe informações climáticas para a localização atual do usuário ou para qualquer cidade pesquisada.
 
